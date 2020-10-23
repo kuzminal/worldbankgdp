@@ -43,7 +43,6 @@ public class CountryDAO {
     private static final String PAGINATION_CLAUSE = " ORDER BY c.code "
             + " LIMIT :size OFFSET :offset ";
 
-    @Autowired
     NamedParameterJdbcTemplate namedParamJdbcTemplate;
 
     public List<Country> getCountries(Map<String, Object> params) {
