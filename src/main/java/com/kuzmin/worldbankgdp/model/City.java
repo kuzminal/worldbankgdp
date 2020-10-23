@@ -18,6 +18,7 @@ public class City {
     private String name;
     @NotNull
     @Size(max = 3, min = 3)
+    String countryCode;
     private Country country;
     @NotNull
     @Size(max = 20)

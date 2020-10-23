@@ -19,5 +19,8 @@ public class CountryLanguage {
     @Size(max = 1, min = 1)
     private String isOfficial;
     @NotNull
+    @Size(max = 3, min = 3)
+    private String countryCode;
+    @NotNull
     private Double percentage;
 }
